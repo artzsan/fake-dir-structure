@@ -1,0 +1,21 @@
+{
+  "name": "fakeFsStructure",
+  "version": "1.0.0",
+  "description": "generate fake folder and files",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [
+    "generator",
+    "fake",
+    "fs"
+  ],
+  "author": "artzsan",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^10.1.8",
+    "seedrandom": "^3.0.5"
+  }
+}
